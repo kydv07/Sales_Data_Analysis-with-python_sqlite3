@@ -1,9 +1,9 @@
-Sales Summary using SQLite and Python
+# Sales Summary using SQLite and Python
 
 This project is part of a Data Analyst Internship Task.
 It demonstrates how to use SQL inside Python to extract simple sales insights from a small SQLite database, display results using print statements, and visualize revenue using a basic bar chart.
 
-📌 Objective
+## 📌 Objective
 
 Connect to a SQLite database using Python
 
@@ -17,7 +17,7 @@ Display results in the console
 
 Visualize revenue using a simple bar chart
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 Python
 
@@ -31,7 +31,7 @@ Jupyter Notebook or .py file
 
 SQLite comes built-in with Python — no additional setup required.
 
-📂 Dataset
+## 📂 Dataset
 
 A small SQLite database named:
 
@@ -42,7 +42,8 @@ id	INTEGER	Primary key
 product	TEXT	Product name
 quantity	INTEGER	Quantity sold
 price	REAL	Price per unit
-📁 Project Structure
+
+## 📁 Project Structure
 📦 sales-summary-sqlite
  ┣ 📜 sales_analysis.py   # Python script / notebook
  ┣ 📜 sales_data.db       # SQLite database
@@ -55,7 +56,8 @@ SELECT
     SUM(quantity * price) AS revenue
 FROM sales
 GROUP BY product;
-🚀 How to Run the Project
+
+## 🚀 How to Run the Project
 
 Clone the repository
 
@@ -72,7 +74,7 @@ python sales_analysis.py
 
 Or open the notebook in Jupyter Notebook and run all cells.
 
-📊 Output
+## 📊 Output
 
 Printed summary of total quantity and revenue per product
 
@@ -80,7 +82,7 @@ A bar chart showing revenue by product
 
 Optional saved chart: sales_chart.png
 
-📌 Key Learnings
+## 📌 Key Learnings
 
 Using SQL queries inside Python
 
@@ -90,7 +92,7 @@ Loading SQL results into Pandas DataFrames
 
 Creating basic visualizations with Matplotlib
 
-✅ Deliverables Completed
+## ✅ Deliverables Completed
 
 ✔ SQLite database connection
 
